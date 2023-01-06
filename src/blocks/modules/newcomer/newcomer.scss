@@ -1,0 +1,29 @@
+.newcomer {
+  margin-bottom: 180px;
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-tools {
+    width: 50%;
+    align-self: baseline;
+    margin-right: 197px;
+    h2 {
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 60px;
+    }
+  }
+}
+.tools-cards-block {
+  height: 294px;
+  padding: 33px;
+  width: 50%;
+}
+.tools-cards {
+  &-newcomer {
+    width: 50%;
+  }
+}

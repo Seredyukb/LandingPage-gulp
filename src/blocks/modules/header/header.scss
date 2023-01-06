@@ -1,0 +1,28 @@
+.header {
+  margin-bottom: 104px;
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0;
+  }
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      margin-right: 12px;
+      a {
+        opacity: 55%;
+      }
+    }
+    li:nth-child(4) {
+      margin-right: 0;
+    }
+  }
+  &-auth {
+    .button:first-child {
+      margin-right: 2px;
+    }
+  }
+}

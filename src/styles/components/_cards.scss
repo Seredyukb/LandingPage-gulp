@@ -1,0 +1,52 @@
+.tools {
+  &-cards {
+    margin-bottom: 100px;
+    &-block {
+      height: 294px;
+      padding: 33px;
+      &-upper {
+        height: 66px;
+        display: flex;
+        align-items: center;
+        h3 {
+          margin-bottom: 3px;
+          font-size: 24px;
+          color: $white;
+          opacity: 90%;
+        }
+        p {
+          font-size: 18px;
+          color: $primary-600;
+          opacity: 55%;
+        }
+        li {
+          svg {
+            width: 65px;
+            height: 65px;
+            margin-right: 30px;
+          }
+        }
+        &-description {
+          margin: 30px 0;
+        }
+      }
+      &-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-status {
+          svg {
+            height: 42px;
+            width: 42px;
+          }
+        }
+      }
+    }
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}

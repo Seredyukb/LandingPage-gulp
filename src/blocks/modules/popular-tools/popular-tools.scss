@@ -1,0 +1,30 @@
+.popular-tools {
+  &-description {
+    text-align: center;
+    margin: 0 auto;
+    width: 460px;
+    h2 {
+      font-size: 48px;
+      color: $white;
+      opacity: 90%;
+    }
+    p {
+      font-size: 18px;
+      color: $white;
+      opacity: 55%;
+    }
+  }
+  .tools-cards-block {
+    height: 294px;
+    padding: 33px;
+    width: 33%;
+  }
+
+  #button-load-more {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid $primary-900;
+    border-radius: 8px;
+    margin-bottom: 145px;
+  }
+}

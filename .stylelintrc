@@ -6,6 +6,7 @@
         "stylelint-selector-bem-pattern"
     ],
     "rules": {
+         'linebreak-style': ['error', process.platform === 'win32' ? 'windows' : 'unix'],
         "indentation": 4,
         "plugin/selector-bem-pattern": [
             {

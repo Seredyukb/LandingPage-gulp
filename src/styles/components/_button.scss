@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  line-height: 1.5;
+  padding: 12px 28px;
+  color: $white;
+  border: none;
+
+  &__link {
+    outline: none;
+    background-color: transparent;
+    opacity: 55%;
+    border-radius: 8px;
+  }
+  &__link:hover {
+    // background-color: $primary-900;
+    opacity: 100%;
+    background-color: $primary-900;
+    cursor: pointer;
+  }
+  &__contained {
+    border-radius: 8px;
+    background-color: $primary-900;
+  }
+  &__contained:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,32 @@
+.brands {
+  margin-bottom: 200px;
+  &-wrapper {
+    padding: 55px 82px;
+    background: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+  }
+  &-description {
+    width: 370px;
+    text-align: center;
+    margin: 0 auto;
+    h4 {
+      font-size: 24px;
+      color: $white;
+      opacity: 80%;
+      margin-bottom: 55px;
+    }
+  }
+  &-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    svg {
+      width: 25%;
+      margin-right: 107px;
+    }
+    svg:last-child {
+      margin-right: 0;
+    }
+  }
+}

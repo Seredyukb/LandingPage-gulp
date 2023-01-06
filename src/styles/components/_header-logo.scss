@@ -1,0 +1,11 @@
+.header-logo {
+  display: flex;
+  &-description {
+    font-size: 22px;
+  }
+  svg {
+    height: 38px;
+    width: 38px;
+    margin-right: 12px;
+  }
+}
