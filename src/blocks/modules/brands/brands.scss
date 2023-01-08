@@ -2,7 +2,14 @@
   margin-bottom: 200px;
   &-wrapper {
     padding: 55px 82px;
-    background: rgba(44, 53, 61, 0.2);
+    background: rgb(40, 48, 54);
+    background: linear-gradient(
+      300deg,
+      rgba(40, 48, 54, 1) 60%,
+      rgba(40, 48, 54, 1) 60%,
+      rgba(255, 110, 48, 0.5) 99%,
+      rgba(255, 110, 48, 0.5) 100%
+    );
     backdrop-filter: blur(25px);
     border-radius: 25px;
   }

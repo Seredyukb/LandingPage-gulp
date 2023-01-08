@@ -4,6 +4,8 @@
     &-block {
       height: 294px;
       padding: 33px;
+      opacity: 55%;
+
       &-upper {
         height: 66px;
         display: flex;
@@ -12,15 +14,14 @@
           margin-bottom: 3px;
           font-size: 24px;
           color: $white;
-          opacity: 90%;
+          // opacity: 90%;
         }
         p {
           font-size: 18px;
           color: $primary-600;
-          opacity: 55%;
         }
         li {
-          svg {
+          img {
             width: 65px;
             height: 65px;
             margin-right: 30px;
@@ -30,17 +31,33 @@
           margin: 30px 0;
         }
       }
+
       &-bottom {
         display: flex;
         justify-content: space-between;
         align-items: center;
         &-status {
-          svg {
+          display: flex;
+          img {
             height: 42px;
             width: 42px;
           }
         }
       }
+    }
+    &-block:hover {
+      background: rgb(40, 48, 54);
+      background: linear-gradient(
+        45deg,
+        rgba(40, 48, 54, 1) 60%,
+        rgba(40, 48, 54, 1) 60%,
+        rgba(255, 110, 48, 0.5) 99%,
+        rgba(255, 110, 48, 0.5) 100%
+      );
+      backdrop-filter: blur(25px);
+      border-radius: 15px;
+      cursor: pointer;
+      opacity: 88%;
     }
     &-wrapper {
       display: flex;

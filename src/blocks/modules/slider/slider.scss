@@ -5,11 +5,15 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    img {
+      margin: 30px;
+    }
   }
   &-middle {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
   }
   &-arrow {
     width: 10%;
@@ -19,12 +23,33 @@
     cursor: pointer;
   }
   &-rightside {
+    position: relative;
     width: 40%;
     color: $white;
     opacity: 78%;
   }
   &-leftside {
     width: 40%;
+    &-description {
+      position: absolute;
+      left: 100px;
+      bottom: 50px;
+      display: inline-block;
+      padding: 10px;
+      background: rgba(40, 48, 54, 0.2);
+      backdrop-filter: blur(15px);
+      border-radius: 8px;
+      h4 {
+        color: $white;
+        opacity: 78%;
+        font-size: 26px;
+      }
+      p {
+        color: $white;
+        opacity: 55%;
+        font-size: 16px;
+      }
+    }
     &-round {
       border-radius: 50%;
       width: 300px;
@@ -48,4 +73,26 @@
       cursor: pointer;
     }
   }
+}
+.circle {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: #007acc;
+  filter: blur(2.5px);
+  border-radius: 50%;
+  position: absolute;
+  left: 300px;
+  bottom: 60px;
+}
+.circle-orange {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background: rgba(255, 110, 48, 0.7);
+  filter: blur(40px);
+  border-radius: 50%;
+  position: absolute;
+  left: 200px;
+  bottom: 100px;
 }

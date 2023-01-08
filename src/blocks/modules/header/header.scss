@@ -16,6 +16,9 @@
         opacity: 55%;
       }
     }
+    li:hover {
+      text-decoration: underline;
+    }
     li:nth-child(4) {
       margin-right: 0;
     }
